@@ -41,6 +41,7 @@
           </table>
         </div>
         <div class="form__button">
+          <button type="submit" formaction="/contact/edit">修正</button>
           <button type="submit">送信</button>
         </div>
       </form>
