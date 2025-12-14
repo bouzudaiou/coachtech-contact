@@ -27,7 +27,6 @@
             </div>
           </div>
         </div>
-     </div>
         <div class="form__group">
           <div class="form__group-title">
             <span class="form__label--item">メールアドレス</span>
@@ -78,6 +77,7 @@
                    @error('content')
                    {{ $message }}
                    @enderror
+                </div>
           </div>
         </div>
         <div class="form__button">
