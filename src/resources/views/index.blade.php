@@ -20,14 +20,14 @@
             <div class="form__input--text">
               <input type="text" name="name" placeholder="テスト太郎" value="{{ old('name') }}" />
             </div>
-            <div class="form__error">
-              @error('name')
-                {{ $message }}
-              @enderror
-            </div>
+                <div class="form__error">
+                   @error('name')
+                   {{ $message }}
+                  @enderror
             </div>
           </div>
         </div>
+     </div>
         <div class="form__group">
           <div class="form__group-title">
             <span class="form__label--item">メールアドレス</span>
@@ -37,10 +37,10 @@
             <div class="form__input--text">
               <input type="email" name="email" placeholder="test@example.com" value="{{ old('email') }}" />
             </div>
-            <div class="form__error">
-              @error('email')
-                {{ $message }}
-              @enderror
+                <div class="form__error">
+                   @error('email')
+                   {{ $message }}
+                   @enderror
             </div>
           </div>
         </div>
@@ -58,10 +58,10 @@
             </option>
             @endforeach
             </select>
-            <div class="form__error">
-              @error('category_id')
-                {{ $message }}
-              @enderror
+               <div class="form__error">
+                  @error('category_id')
+                  {{ $message }}
+                  @enderror
             </div>
           </div>
         </div>
@@ -74,10 +74,10 @@
             <div class="form__input--textarea">
               <textarea name="content" placeholder="資料をいただきたいです">{{ old('content') }}</textarea>
             </div>
-            <div class="form__error">
-              @error('content')
-                {{ $message }}
-              @enderror
+                <div class="form__error">
+                   @error('content')
+                   {{ $message }}
+                   @enderror
           </div>
         </div>
         <div class="form__button">
